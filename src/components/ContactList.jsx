@@ -19,7 +19,7 @@ const dummyContacts = [
 
 function ContactList({setSelectedContactId}) {
   const [count, setCount] = useState(0)
-  const [contact, setContact] = useState(dummyContacts)
+  const [contact, setContact] = useState([])
     console.log(contact)
 //====================Grabing the api===========================
 
